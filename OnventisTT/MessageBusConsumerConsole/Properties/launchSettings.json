@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MessageBusConsumerConsole": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

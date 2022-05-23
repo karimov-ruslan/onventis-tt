@@ -23,8 +23,13 @@ the request data is sent to the second application by RabbitMQ (cloud version is
 4. .NET 5 Console application subscribes to the RabbitMQ, receives the message from first application and writes received message to the Console.
   
 Nice to have:
+  
 Postman collection to test application (auth + invoice sending)
+  
 use Serilog for logging
+  
 add dockerfile with two stages: build + runtime
+  
 publish source code to GitHub
+  
 build applications using GitHub Actions

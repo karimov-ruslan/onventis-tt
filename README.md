@@ -3,17 +3,17 @@ Technical task
 Create ASP.NET Core application with the following acceptance criteria.
 1. Application has an endpoint which accepts request of structure:
 
-class Invoice {
+class Invoice 
 string Description;
 DateTime DueDate;
 string Supplier;
 List<InvoiceLine> Lines;
-}
-class InvoiceLine {
+
+class InvoiceLine 
 string Description;
 double Price;
 int Quantity;
-}
+
   
 2. Endpoint shoud be authenticated by JWT.
   
